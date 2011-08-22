@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+chicken:
+  name: Chicken Thighs
+  description: Bone-in chicken thighs
+
+pork_chops:
+  name: Pork Chops
+  description: Pork chops
