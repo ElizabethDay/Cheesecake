@@ -6,8 +6,11 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body>
+<body id="index" class="home">
 
+  <header id="site_header">
+  <%= image_tag "cheesecake-logo.jpg", :class => "center" %>
+  </header>
 <%= yield %>
 
 </body>
