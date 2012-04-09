@@ -1,0 +1,26 @@
+ html { 
+  background: url(file:///home/beth/projects/Cheesecake/public/images/edit-Black_Lace.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+  color: red;
+  height: 100%;
+ }
+
+body {
+  margin: 0;
+  padding: 0;
+	height: 100%;
+}
+
+#index {
+	background: #fff;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	padding: 0 20px 0 20px;
+	margin: auto;
+	font: 1.5em arial, verdana, sans-serif;
+	width: 90%;
+	min-height: 100%;
+}

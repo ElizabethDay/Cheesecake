@@ -5,7 +5,8 @@ gem 'rails', '3.0.10'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+#gem 'pg'
+gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -29,3 +30,21 @@ gem 'pg'
 # group :development, :test do
 #   gem 'webrat'
 # end
+#
+group :development do
+  gem 'rspec-rails', '2.6.1'
+  gem 'mime-types', '1.16'
+  gem 'rb-readline'
+end
+
+group :test do
+  gem 'rspec-rails', '2.6.1'
+  gem 'webrat', '0.7.1'
+  gem 'spork', '0.9.0.rc8'
+  gem 'autotest', '4.4.6'
+  gem 'autotest-rails-pure', '4.1.2'
+  gem 'test-unit', '1.2.3'
+  gem 'redgreen', '1.2.2'
+  gem 'mime-types', '1.16'
+  gem 'rb-readline'
+end
