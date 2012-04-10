@@ -4,13 +4,19 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover; 
-  height: 100%;
  }
 
 body {
   margin: 0;
   padding: 0;
 	height: 100%;
+}
+
+table {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border-color: black;
 }
 
 img.center {
@@ -32,4 +38,33 @@ img.center {
 	font: 1.5em arial, verdana, sans-serif;
 	width: 90%;
 	min-height: 100%;
+}
+
+#recipe_list {
+   background: url(../images/ltdts-2.jpg) repeat center center fixed;
+  -webkit-background-size: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
+	background-size: auto;
+}
+
+#recipe_list thead tr {
+   background: url(../images/ltdts.jpg) repeat center center fixed;
+  -webkit-background-size: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
+	background-size: auto;
+  font-size: 16px;
+}
+
+#recipe_list td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid transparent;
+  font-size: 12px;
+}
+
+table#recipe_list tr:hover td {
+  color: black;
+  background: white;
 }
