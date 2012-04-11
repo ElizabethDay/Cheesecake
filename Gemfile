@@ -35,6 +35,7 @@ group :development do
   gem 'rspec-rails', '2.6.1'
   gem 'mime-types', '1.16'
   gem 'rb-readline'
+  gem 'annotate', '2.4.0'
 end
 
 group :test do

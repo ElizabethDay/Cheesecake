@@ -17,7 +17,7 @@
     <tr>
       <td><%= link_to recipe.name, recipe %></td>
       <td><%= recipe.description %></td>
-      <td><%= recipe.link %></td>
+      <td><%= link_to site_location(recipe), recipe.link %></td>
       <td><%= link_to 'Edit', edit_recipe_path(recipe) %></td>
       <td><%= link_to 'Destroy', recipe, :confirm => 'Are you sure?', :method => :delete %></td>
     </tr>
