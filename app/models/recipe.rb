@@ -13,4 +13,6 @@
 
 class Recipe < ActiveRecord::Base
   attr_accessible :name, :description, :instructions, :link
+  validates :name, :length => { :minimum => 2 }
+  validates :name, :length => { :maximum => 255 }
 end

@@ -11,13 +11,8 @@
 </p>
 
 <p>
-  <b>Instructions:</b>
-  <%= @recipe.instructions %>
-</p>
-
-<p>
-  <b>Link:</b>
-  <%= @recipe.link %>
+  <b>Recipe Location:</b>
+  <%= link_to site_location(@recipe), @recipe.link, :target => '_blank'  %>
 </p>
 
 
